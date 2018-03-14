@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e8a39553-fc3e-4990-96d4-33a9ea18b6fe" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56200/WebServiceTabla.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WebServiceTabla.xsd" MetadataType="Schema" ID="662333d4-580b-4df9-8614-50f2a3220f60" SourceId="1" SourceUrl="http://localhost:56200/WebServiceTabla.svc?xsd=xsd1" />
+    <MetadataFile FileName="WebServiceTabla.disco" MetadataType="Disco" ID="67121d23-1700-4a49-abba-fe066f7fad21" SourceId="1" SourceUrl="http://localhost:56200/WebServiceTabla.svc?disco" />
+    <MetadataFile FileName="ServicioTabla.wsdl" MetadataType="Wsdl" ID="47090628-b9ac-4bd3-b879-088b7a0f866e" SourceId="1" SourceUrl="http://localhost:56200/WebServiceTabla.svc?wsdl" />
+    <MetadataFile FileName="WebServiceTabla1.xsd" MetadataType="Schema" ID="c62c88de-a7e3-4acd-bc5e-a5b7fa80e03f" SourceId="1" SourceUrl="http://localhost:56200/WebServiceTabla.svc?xsd=xsd2" />
+    <MetadataFile FileName="WebServiceTabla2.xsd" MetadataType="Schema" ID="528ccee0-78e6-47c5-9c4c-446b39cb183f" SourceId="1" SourceUrl="http://localhost:56200/WebServiceTabla.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,36 @@
+﻿@model List<int>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+{ 
+<label>Numero: </label><input type="text" name="num" />
+<button type="submit">Ver</button>
+
+}
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+    @if (Model != null)
+    {
+        int indice = 0;
+        foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            <h4>@ViewBag.Numero X @indice = @item</h4>
+        </td>
+    </tr>
+            indice++;
+        }
+    }
+
+</table>
